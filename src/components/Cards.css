@@ -1,0 +1,11 @@
+.cards{
+    height: screen;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 40px;
+    margin-top: 20px;
+}

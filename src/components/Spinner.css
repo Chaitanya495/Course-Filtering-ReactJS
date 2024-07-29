@@ -1,0 +1,25 @@
+.spinner{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: 
+        radial-gradient(farthest-side,#232329d7 94%,#0000) top/8px 8px no-repeat,
+        conic-gradient(#0000 30%,#232329d7);
+        -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+    animation:s3 1s infinite linear;
+}
+      
+@keyframes s3{ 
+    100%{transform: rotate(1turn)}
+}
+
+.spinner-box{
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+

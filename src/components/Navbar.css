@@ -1,0 +1,14 @@
+.heading-box{
+    padding: 16px;
+    background: #1A205D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
